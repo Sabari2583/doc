@@ -13,5 +13,7 @@ services:
       retries: 3
 
   service2:
-    build: ./service_2
-    container_name: servic_
+    build:
+      context: ./service_2
+    ports:
+      - "8002:8002"
