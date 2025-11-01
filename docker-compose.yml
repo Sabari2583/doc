@@ -16,4 +16,4 @@ services:
     build:
       context: ./service_2
     ports:
-      - "8002:8002"
+      - "8001:8001"
